@@ -6,6 +6,9 @@ Markdown
 A lightweight, multi-source TCP socket server written in Python that allows connected clients to look up IP address geolocation details in real-time. The project supports multiple lookup methods (API, Local DB, and Geocoder wrappers) and outputs perfectly formatted terminal interface cards back to the client.
 
 ---
+## 🛠️ Need to download
+
+```pip install -r requset.txt```
 
 ## 🚀 Features
 
@@ -59,9 +62,6 @@ Plaintext
 
 
 ```
-## 🛠️ Need to download
+v
 
-```pip install -r requirements.txt```
-
-### Available Commands
 
