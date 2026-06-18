@@ -13,10 +13,6 @@ input_user = ""
 while input_user != "EXIT":
     input_user = input("Enter command: ")
     my_socket.send(input_user.encode())
-
-    if input_user[:3] == "SAVE":
-        response = my_socket.recv(1024)
-
     response = my_socket.recv(1024).decode()
     print("Server says:", response)
 
