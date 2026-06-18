@@ -2,7 +2,6 @@ import socket
 import geocoder
 import IP2Location
 import requests
-import TXT_IP
 from TXT_IP import save_in_txt
 
 # Server setting #
@@ -20,7 +19,7 @@ server_socket.bind((local_ip, port ))
 
 server_socket.listen(1)
 
-Commands_List = ["HELLO", "LOCATE", "EXIT", "HELP", "SAVE"]
+Commands_List = ["HELLO", "LOCATE", "EXIT", "HELP"]
 commands_info = """\n+-----------------------------------------------------+
 |                  AVAILABLE COMMANDS                 |
 +-----------------------------------------------------+
